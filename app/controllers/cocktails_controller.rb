@@ -1,5 +1,6 @@
 class CocktailsController < ApplicationController
   def index
+    @navbar = true
     @cocktails = Cocktail.all
   end
 
@@ -21,6 +22,7 @@ class CocktailsController < ApplicationController
       render 'new'
     end
   end
+
 
   private
 

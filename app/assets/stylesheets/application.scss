@@ -10,4 +10,18 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/navbar";
 @import "pages/index";
+
+body, html {
+  height: 100%;
+}
+.bg {
+
+  background-image: url("http://www.saporetti.it/wp-content/uploads/2017/05/Campari-Spritz_01-1170x1170.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}

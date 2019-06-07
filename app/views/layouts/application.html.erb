@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>RailsMisterCocktail</title>
+    <title>MisterCocktail</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -14,6 +14,11 @@
   </head>
 
   <body>
+
+     <% if @navbar == true %>
+      <%= render "layouts/navbar" %>
+    <% end  %>
+
     <%= yield %>
 
 
