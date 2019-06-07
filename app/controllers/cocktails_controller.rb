@@ -1,5 +1,4 @@
 class CocktailsController < ApplicationController
-  mount_uploader :photo, PhotoUploader
 
   def index
     @navbar = true
